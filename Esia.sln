@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esia.Console", "Esia.Console\Esia.Console.csproj", "{0D9E1A19-A9E4-4B01-A3ED-61C102551E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esia.SignProvider.Api", "Esia.SignProvider.Api\Esia.SignProvider.Api.csproj", "{393DC0EB-461A-41D6-A92E-4E4E793A9747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esia.SignProvider.Terminal", "Esia.SignProvider.Terminal\Esia.SignProvider.Terminal.csproj", "{4218929B-0309-4389-B7C1-B55ED0BADDB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esia.SignProvider.Core", "Esia.SignProvider.Core\Esia.SignProvider.Core.csproj", "{26C582E2-8575-4DAD-AEC5-FCAF103C628E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignProvider", "SignProvider", "{D1500DC8-0BF1-4DFC-994F-38B1B0B6BF54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esia.Authentication", "Esia.Authentication\Esia.Authentication.csproj", "{B6AAB17C-3ECC-426F-99FD-992C000EE214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esia.SignProvider.LibCore", "Esia.SignProvider.LibCore\Esia.SignProvider.LibCore.csproj", "{7533BAF3-E2AC-479A-A3CC-2ADA8E4FB448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esia.SignProvider.Common", "Esia.SignProvider.Common\Esia.SignProvider.Common.csproj", "{04886FDF-0709-4E4C-8DCE-0859C626D946}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D9E1A19-A9E4-4B01-A3ED-61C102551E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9E1A19-A9E4-4B01-A3ED-61C102551E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9E1A19-A9E4-4B01-A3ED-61C102551E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9E1A19-A9E4-4B01-A3ED-61C102551E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393DC0EB-461A-41D6-A92E-4E4E793A9747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393DC0EB-461A-41D6-A92E-4E4E793A9747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393DC0EB-461A-41D6-A92E-4E4E793A9747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393DC0EB-461A-41D6-A92E-4E4E793A9747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4218929B-0309-4389-B7C1-B55ED0BADDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4218929B-0309-4389-B7C1-B55ED0BADDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4218929B-0309-4389-B7C1-B55ED0BADDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4218929B-0309-4389-B7C1-B55ED0BADDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C582E2-8575-4DAD-AEC5-FCAF103C628E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C582E2-8575-4DAD-AEC5-FCAF103C628E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C582E2-8575-4DAD-AEC5-FCAF103C628E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C582E2-8575-4DAD-AEC5-FCAF103C628E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6AAB17C-3ECC-426F-99FD-992C000EE214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6AAB17C-3ECC-426F-99FD-992C000EE214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6AAB17C-3ECC-426F-99FD-992C000EE214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6AAB17C-3ECC-426F-99FD-992C000EE214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7533BAF3-E2AC-479A-A3CC-2ADA8E4FB448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7533BAF3-E2AC-479A-A3CC-2ADA8E4FB448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7533BAF3-E2AC-479A-A3CC-2ADA8E4FB448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7533BAF3-E2AC-479A-A3CC-2ADA8E4FB448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04886FDF-0709-4E4C-8DCE-0859C626D946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04886FDF-0709-4E4C-8DCE-0859C626D946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04886FDF-0709-4E4C-8DCE-0859C626D946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04886FDF-0709-4E4C-8DCE-0859C626D946}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{393DC0EB-461A-41D6-A92E-4E4E793A9747} = {D1500DC8-0BF1-4DFC-994F-38B1B0B6BF54}
+		{26C582E2-8575-4DAD-AEC5-FCAF103C628E} = {D1500DC8-0BF1-4DFC-994F-38B1B0B6BF54}
+		{4218929B-0309-4389-B7C1-B55ED0BADDB4} = {D1500DC8-0BF1-4DFC-994F-38B1B0B6BF54}
+		{7533BAF3-E2AC-479A-A3CC-2ADA8E4FB448} = {D1500DC8-0BF1-4DFC-994F-38B1B0B6BF54}
+		{04886FDF-0709-4E4C-8DCE-0859C626D946} = {D1500DC8-0BF1-4DFC-994F-38B1B0B6BF54}
+	EndGlobalSection
+EndGlobal
