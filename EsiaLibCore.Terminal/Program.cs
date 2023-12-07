@@ -25,7 +25,7 @@ async Task GetToken(ISignProvider signProvider)
         SignProvider = signProvider,
         VerifyTokenSignature = false,
         SaveTokens = true,
-        Scope = { "snils", "snils" }
+        Scope = { "openid", "snils" }
     };
 
     var authService = new EsiaAuthenticationService(new EsiaOptionsMonitor(options));
