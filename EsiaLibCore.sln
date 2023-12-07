@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsiaLibCore.Terminal", "EsiaLibCore.Terminal\EsiaLibCore.Terminal.csproj", "{8FD38E1F-5139-4838-B50F-DEB5FC9DC149}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FD38E1F-5139-4838-B50F-DEB5FC9DC149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD38E1F-5139-4838-B50F-DEB5FC9DC149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD38E1F-5139-4838-B50F-DEB5FC9DC149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD38E1F-5139-4838-B50F-DEB5FC9DC149}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
